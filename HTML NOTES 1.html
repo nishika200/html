@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML</title>
+<head>
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="HTML Notes .html">What is HTML?</a>
+    <a href="HTML Notes 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+    <a href="HTML Notes 2.html">HTML Comments , HTML Basics </a>
+    <a href="HTML Notes 3.html">HTML Layout</a>
+    <a href="HTML Notes 4.html">HTML Headings and HTML Paragraphs</a>
+    <a href="HTML Notes 5.html">HTML text formatting, HTML Links</a>
+    <a href="HTML Notes 6.html">HTML Tables</a>
+    <a href="HTML Notes 7.html">HTML Lists</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+      
+<h2>Advantages of HTML:</h2>
+<ul>
+<li>HTML is easy to learn, easy to apply and it’s totally free you will just need a text editor and a browser.</li>
+<li>HTML is supported by all the browsers and it is the most friendly search engine.</li>
+<li>HTML can easily integrate with other languages and is easy to develop.</li>
+<li>It is the basic of all programming languages and the lightest language ever.</li>
+<li>In HTML, the display changes frequently depending on the window size or the device size making it comfortable to read by the user.</li>
+</ul>
+<h2>Disadvantages of HTML:</h2>
+<ul>
+<li>HTML can be used to create only static Web-page, it can not create dynamic web-page.</li>
+<li>There is a lack of security in HTML.</li>
+<li>Creating a simple Web-page required so many tags.</li>
+<li>HTML language is not centralised i.e. all the web pages that are connected, you have to design them separately else need to use CSS.</li>
+<li>HTML becomes complex when you try to create a huge website.</li>
+</ul>
+<h2>HTML Basic Format Page Structure</h2>
+<p>The basic structure of an HTML page is laid out below. It contains the essential building-block elements (i.e. doctype declaration, HTML, head, title, and body elements) upon which all web pages are created.</p>
+<img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401160946/HTML-Basic-Format.png">
+<p><b>&lt;!DOCTYPE html&gt; - </b> A doctype or document type declaration is an instruction that tells the web browser about the markup language in which the current page is written. It is not an element or tag. The doctype declaration is not case-sensitive.</p>
+<p><b>&lt;html&gt; -</b>This tag is used to define the root element of HTML document. This tag tells the browser that it is an HTML document. It is the second outer container element that contains all other elements within it.</p>
+<p><b>&lt;head&gt; -</b>This tag is used to define the head portion of the HTML document that contains information related to the document. Elements within the head tag are not visible on the front-end of a webpage.HTML elements used inside the <head> element include: <br>
+<ul>
+<li>&lt;style&gt;-This html tag allows us to insert styling into our webpages and make them appealing to look at with the help of CSS.</li>
+<li>&lt;title&gt;-The title is what is displayed on the top of your browser when you visit a website and contains title of the webpage that you are viewing.</li>
+<li>&lt;base&gt;-It specifies the base URL for all relative URL’s in a document.</li>
+<li>&lt;script&gt;-This tag is used to add functionality in the website with the help of JavaScript.</li>
+<li>&lt;meta&gt;-This tag encloses the meta data of the website that must be loaded every time the website is visited. For eg:- the metadata charset allows you to use the standard UTF-8 encoding in your website. This in turn allows the users to view your webpage in the language of their choice. It is a self closing tag.</li>
+<li>&lt;link&gt;-The ‘link’ tag is used to tie together HTML, CSS and JavaScript. It is self closing.</li>
+</ul></p>
+<p><b>&lt;body&gt; -</b>The body tag is used to enclose all the visible content of a webpage. In other words, the body content is what the browser will show on the front end.
+</p>
+
+
+
+<a href="HTML NOTES 2.html">HTML Comments , HTML Basics</a>
+</body>
+</html>

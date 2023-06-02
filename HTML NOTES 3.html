@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML</title>
+<head>
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+
+</style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="HTML Notes .html">What is HTML?</a>
+        <a href="HTML Notes 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+        <a href="HTML Notes 2.html">HTML Comments , HTML Basics </a>
+        <a href="HTML Notes 3.html">HTML Layout</a>
+        <a href="HTML Notes 4.html">HTML Headings and HTML Paragraphs</a>
+        <a href="HTML Notes 5.html">HTML text formatting, HTML Links</a>
+        <a href="HTML Notes 6.html">HTML Tables</a>
+        <a href="HTML Notes 7.html">HTML Lists</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <h2>HTML Layout:</h2>
+    <p>Page layout is the part of graphic design that deals with the arrangement of vish3ual elements on 
+        a page. Page layout is used to make the web pages look better. It establishes the overall
+        appearance, relative importance, and relationships between the graphic elements to achieve a
+        smooth flow of information and eye movement for maximum effectiveness or impact.
+    </p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/layout.png"></center>
+    <h3>Page Layout Information:</h3>
+    <ul>
+        <li><b>Header:</b> The part of the front end which is used at the top of the page. <header> tag is used to add a header section on web pages.
+        <li><b> Navigation bar:</b>The navigation bar is the same as the menu list. It is used to display the content information using hyperlinks. <nav> tag is used to add the nav section(nav elements) in web pages.
+        <li><b>Index / Sidebar:</b> It holds additional information or advertisements and is not always necessary to be added to the page.
+        <li><b>Content Section:</b> The content section is the central part where content is displayed.<main> tag is used to add the main content of the webpages.
+        <li><b>Footer:</b> The footer section contains the contact information and other query related to web pages. The footer section is always put on the bottom of the web pages. The <footer> tag sets the footer on web pages.
+        </ul>
+        <a href="HTML NOTES 4.html">HTML Headings ,HTML Paragraphs</a>
+    </body>
+    </html>
+

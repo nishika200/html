@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML</title>
+<head>
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+
+</style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="HTML Notes .html">What is HTML?</a>
+    <a href="HTML Notes 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+    <a href="HTML Notes 2.html">HTML Comments , HTML Basics </a>
+    <a href="HTML Notes 3.html">HTML Layout</a>
+    <a href="HTML Notes 4.html">HTML Headings and HTML Paragraphs</a>
+    <a href="HTML Notes 5.html">HTML text formatting, HTML Links</a>
+    <a href="HTML Notes 6.html">HTML Tables</a>
+    <a href="HTML Notes 7.html">HTML Lists</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <h2>HTML Text Formatting:</h2>
+    <p>In this article, we will know HTML Text Formatting, & will understand various ways of formatting the text. HTML facilitates the ability for formatting text just like we do in MS Word or any text editing software. We will go through a few such options.</p>
+    <p><b>Making text Bold or Strong: </b>We can make the text bold using the &lt;b&gt; tag. The tag uses both opening and closing tags. The text that needs to be made bold must be within &lt;b&gt; and &lt;/b&gt; tag. We can also use the &lt;strong&gt; tag to make the text strong, with added semantic importance. It also opens with &lt;strong&gt; and ends with &lt;/strong&gt; tag.</p>
+    <p><b>Making text Italic or emphasize:</b> The &lt;i&gt; tag is used to italicise the text. It opens with &lt;i&gt; and ends with &lt;/i&gt; tag. The &lt;em&gt; tag is used to emphasize the text, with added semantic importance. It opens with &lt;em&gt; and ends with &lt;/em&gt; tag.</p>
+        <p><b>   Highlighting a text:</b>  It is also possible to highlight a text in HTML using the &lt;mark&gt; tag. It has a opening tag &lt;mark&gt; and a closing tag </mark>.</p>
+        <p><b> Making a text Subscript or Superscript:</b> The &lt;sup&gt; element is used to superscript a text and the &lt;sub&gt; element is used to subscript a text. They both have an opening and a closing tag.<p>
+            <p><b>Making text smaller:</b> The &lt;small&gt; element is used to make the text smaller. The text that needs to be displayed smaller should be written inside &lt;small&gt; and &lt;/small&gt; tag.
+                <p><b>Striking through the text:</b> The &lt;del&gt; element is used to strike through the text marking the part as deleted. It also has an opening and a closing tag.</p>
+                <p><b> Adding a text:</b> The &lt;ins&gt; element is used to underline a text marking the part as inserted or added. It also has an opening and a closing tag.</p>
+    <h2>HTML Links:</h2>
+    <p>It is a connection from one web resource to another. A link has two ends, An anchor and direction. The link starts at the “source” anchor and points to the “destination” anchor, which may be any Web resource such as an image, a video clip, a sound bite, a program, an HTML document or an element within an HTML document. You will find many websites or social media platforms ( Like YouTube, Instagram ) which link an image to a URL or a text to a URL etc. 
+
+        This basically means that by using the ‘a’ tag, you can link 1 element of the code to another element that may/may not be in your code. </p>            
+<center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-08-at-12.17.21-AM.png"></center>
+<p><b>Changing Link Colours in HTML:</b>
+Different types of links appear in different formats such as:
+<ol>
+<li>An unvisited link appears underlined and blue in colour by default.
+    <li>A visited link appears underlined and purple in colour by default.
+        <li>An active link appears underlined and red in colour by default.
+</ol> 
+<center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-12-08-at-12.58.55-AM.png"></center>
+<a href="HTML NOTES 6.html">HTML Tables</a>
+</body>
+</html>
+
+ 
+            

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML</title>
+<head>
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="HTML Notes .html">What is HTML?</a>
+        <a href="HTML Notes 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+        <a href="HTML Notes 2.html">HTML Comments , HTML Basics </a>
+        <a href="HTML Notes 3.html">HTML Layout</a>
+        <a href="HTML Notes 4.html">HTML Headings and HTML Paragraphs</a>
+        <a href="HTML Notes 5.html">HTML text formatting, HTML Links</a>
+        <a href="HTML Notes 6.html">HTML Tables</a>
+        <a href="HTML Notes 7.html">HTML Lists</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+<h2>HTML Comments</h2>
+<p>The comment tag ( <!-- Comment-->   ) is used to insert comments in the HTML code. It is a good practice of coding, so that coder and the reader can get help to understand the code. It is useful to understand steps of the complex code. The comment tag is helpful while the debugging of codes.</p>
+<h2>HTML Basics</h2>
+<p>In this article, we will see the HTML Basics by understanding all the basic stuff of HTML coding. There are various tags that we must consider and include while starting to code in HTML. These tags help in the organization and basic formatting of elements in our script or web pages. These step-by-step procedures will guide you through the process of writing HTML.</p>
+<p><b>HTML Headings:</b> These tags help us to give headings to the content of a webpage. These tags are mainly written inside the body tag. HTML provides us with six heading tags from &lt;h1&gt; to &lt;h6&gt;.These 6 heading elements are h1, h2, h3, h4, h5, and h6; with h1 being the highest level and h6 being the least. Every tag displays the heading in a different style and font size.<br>Most HTML heading tag that we use :
+<ul>
+<li>Heading 1</li> 
+<li>Heading 2</li>
+<li>Heading 3 </li>
+</ul></p>
+<p><b>HTML Paragraph:</b>These tags help us to write paragraph statements on a webpage. They start with the &lt;p&gt; tag and ends with &lt;/p&gt;.</p>
+<p><b>HTML Break: –</b> These tags are used for inserting a single line type break. It does not have any closing tag. In HTML the break tag is written as &lt;br&gt;. </p>
+<p><b>HTML Horizontal Line: </b>The &lt;hr&gt; tag is used to break the page into various parts, creating horizontal margins with help of a horizontal line running from the left to right-hand side of the page. This is also an empty tag and doesn’t take any additional statements.</p>
+<p><b>HTML Images:</b> The image tag is used to insert an image into our web page. The source of the image to be inserted is put inside the &lt;img src="source_of_image"&gt; tag.</p>
+<p><b>Supported Browsers:</b>
+<ul>
+<li>Google Chrome 93.0 & above</li>
+<li>Internet Explorer 11.0</li>
+<li>Microsoft Edge 93.0</li>
+<li>Firefox 92.0 & above</li>
+<li>Opera 79.0
+</li>
+</ul></p>
+<button><a href="HTML NOTES 3.html">HTML Layout</a></button>
+</body>
+</html>

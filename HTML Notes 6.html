@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML</title>
+<head>
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="HTML Notes .html">What is HTML?</a>
+    <a href="HTML Notes 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+    <a href="HTML Notes 2.html">HTML Comments , HTML Basics </a>
+    <a href="HTML Notes 3.html">HTML Layout</a>
+    <a href="HTML Notes 4.html">HTML Headings and HTML Paragraphs</a>
+    <a href="HTML Notes 5.html">HTML text formatting, HTML Links</a>
+    <a href="HTML Notes 6.html">HTML Tables</a>
+    <a href="HTML Notes 7.html">HTML Lists</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+    <h2>HTML Tables:</h2>
+    <p>In this article, we will know the HTML Table, various ways to implement it, & will also understand its usage through the examples. HTML Table is an arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis. Tables are useful for various tasks such as presenting text information and numerical data. It can be used to compare two or more items in the tabular form layout. Tables are used to create databases.</p>
+    <p><b>>Defining Tables in HTML:</b>Defining Tables in HTML: An HTML table is defined with the “table” tag. Each table row is defined with the “tr” tag. A table header is defined with the “th” tag. By default, table headings are bold and centered. A table data/cell is defined with the “td” tag.</p>
+    <p><b>Adding a border to an HTML Table: </b>A border is set using the CSS border property. If you do not specify a border for the table, it will be displayed without borders.</p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.54.43-PM.png"></center>
+    <p><b>Adding Collapsed Borders in an HTML Table:</b> For borders to collapse into one border, add the CSS border-collapse property.</p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.55.29-PM.png"></center>
+    <p><b>Adding Cell Padding in an HTML Table:</b> Cell padding specifies the space between the cell content and its borders. If we do not specify a padding, the table cells will be displayed without padding.</p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.56.03-PM.png"></center>
+    <p><b>Adding Left Align Headings in an HTML Table:</b> By default, the table headings are bold and centered. To left-align the table headings, we must use the CSS text-align property.</p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.40.10-PM.png"></center>
+    <p><b>Adding Border Spacing in an HTML Table:</b> Border spacing specifies the space between the cells. To set the border-spacing for a table, we must use the CSS border-spacing property.</p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-3.43.18-PM.png"></center>
+    <p><b>Adding Cells that Span Many Columns in HTML Tables:</b> To make a cell span more than one column, we must use the colspan attribute.</p>
+    <p><b>Adding Cells that span many rows in HTML Tables:</b> To make a cell span more than one row, we must use the rowspan attribute.</p>
+    <p><b>Creating Nested Tables:</b> Nesting tables simply means making a Table inside another Table. Nesting tables can lead to complex tables layouts, which are visually interesting and have the potential of introducing errors.</p>
+    <p><b>Adding a Background Colour to the Table:</b> A color can be added as a background in an HTML table using the “background-color” option.</p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/Screen-Shot-2017-11-16-at-4.16.17-PM.png"></center>
+    <a href="HTML NOTES 7.html">HTML Lists</a>
+</body>
+</html>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

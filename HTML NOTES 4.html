@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML</title>
+<head>
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="HTML Notes .html">What is HTML?</a>
+    <a href="HTML Notes 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+    <a href="HTML Notes 2.html">HTML Comments , HTML Basics </a>
+    <a href="HTML Notes 3.html">HTML Layout</a>
+    <a href="HTML Notes 4.html">HTML Headings and HTML Paragraphs</a>
+    <a href="HTML Notes 5.html">HTML text formatting, HTML Links</a>
+    <a href="HTML Notes 6.html">HTML Tables</a>
+    <a href="HTML Notes 7.html">HTML Lists</a>
+      </div>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+<h2>HTML Heading:</h2>
+<p>In this article, we will know HTML Headings, & their implementation through examples. An HTML heading tag is used to define the headings of a page. There are six levels of headings defined by HTML. These 6 heading elements are h1, h2, h3, h4, h5, and h6; with h1 being the highest level and h6 being the least.</p>
+<ul>
+    <li>&lt;h1&gt; is used for the main heading. (Biggest in size)
+    <li>&lt;h2&gt; is used for subheadings, if there are further sections under the subheadings then the &lt;h3&gt; elements are used. 
+    <li>&lt;h6&gt; for the small heading (smallest one).
+   </ul>
+   <p><b>Horizontal rule:</b> The &lt;hr&gt; tag which stands for the horizontal rule is used to define a thematic break in an HTML page. The &lt;hr&gt; tag is an empty tag, and it does not require any end tag. It is basically used to separate content. Please refer to the HTML &lt;hr&gt; Tag article for more detailed information.</p>
+<h2>HTML Paragraphs:</h2>
+<p>In this article, we will know the HTML Paragraph, & its basic implementation through the examples. The &lt;p&gt; tag in HTML defines a paragraph. These have both opening and closing tags. So anything mentioned within &lt;p&gt; and &lt;/p&gt; is treated as a paragraph. Most browsers read a line as a paragraph even if we don’t use the closing tag i.e, &lt;/p&gt;, but this may raise unexpected results. So, it is a good convention, and we must use the closing tag. </p>
+<h3>Syntax:</h3>
+<p>&lt;p&gt; Content &lt;/p&gt;</p>
+<p><b>Key Points:</b> When we look at the webpage, we see that there are few spaces added before and after a paragraph. HTML does this by default. Let’s look at a few properties of the paragraph tag: </p>
+<ul>
+<li>As already mentioned, the&lt;p&gt;tag automatically adds space before and after any paragraph, which is basically margins added by the browser.
+    <li> If a user adds multiple spaces, the browser reduces them to a single space.
+<li>If a user adds multiple lines, the browser reduces them to a single line.
+<li>By default, the display of the Paragraph element is set to “block” which you can change using CSS. This means that if you add another paragraph to the webpage the next paragraph will be inserted in the next line on the webpage.
+</ul>
+<p><b>&lt;br&gt; tag:</b> There is a way to let the HTML know where the browser needs to change the lines by using the &lt;br&gt; tag. These tags do not have any closing tag. So, just a single opening tag will change the line.</p>
+<h3>Syntax:</h3>
+<p>&lt;br&gt;</p>
+<p><b>Align attribute:</b> The &lt;p&gt; tag specifically supports the alignment attribute and allows us to align our paragraphs in left, right, or center alignment.</p>
+<h3>Syntax:</h3>
+<p>&lt;p align="value"&gt;</p>
+<p><b>&lt;pre&gt;tag:</b> We have seen how the paragraph tag ignores all the changes of lines and extra spaces within a paragraph, but there is a way to preserve this by the use of the &lt;pre&gt;tag. It also contains an opening and a closing tag. It displays a text within a fixed height and width and preserves the extra lines and spaces we use.</p>
+<h3>Syntax:</h3>
+<p>&lt;pre&gt; Content &lt;/pre&gt;</p>
+<a href="HTML NOTES 5.html">HTML text formatting, HTML Links</a>
+</body>
+</html>
+

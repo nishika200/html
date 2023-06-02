@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>HTML</title>
+<head>
+<style>
+    body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+h1{
+color:purple;
+text-align:center;
+font-size:60px;
+}
+h2{
+color:blue;
+font-size:40px;
+}
+p{
+font-size:20px;
+font-family:serif;
+}
+li{
+font-size:20px;
+font-family:serif;
+}
+b{
+color:purple;
+font-size:20px;
+}
+</style>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="HTML Notes .html">What is HTML?</a>
+    <a href="HTML Notes 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+    <a href="HTML Notes 2.html">HTML Comments , HTML Basics </a>
+    <a href="HTML Notes 3.html">HTML Layout</a>
+    <a href="HTML Notes 4.html">HTML Headings and HTML Paragraphs</a>
+    <a href="HTML Notes 5.html">HTML text formatting, HTML Links</a>
+    <a href="HTML Notes 6.html">HTML Tables</a>
+    <a href="HTML Notes 7.html">HTML Lists</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+      
+    <h1><u>HTML</u></h1>
+    <h2>What is HTML?</h2>
+    <p>HTML stands for Hypertext Markup Language. It is used to design web pages using the markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages and markup language defines the text document within the tag that define the structure of web pages.</p>
+    <center><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220630132824/HTML-Full-Form.jpg"></center>
+    <h2>What is HTML used for?</h2>
+    <p>HTML is used to create the structure of web pages that are displayed on the World Wide Web (www). It contains Tags and Attributes that are used to design the web pages. Also, we can link multiple pages using Hyperlinks.</p>
+    <h2>Characteristics of HTML :</h2>
+    <ul>
+    <li>Easy to understand</li>
+    <li>Flexibility</li>
+    <li>Linkable</li>
+    <li>Limitless features</li>
+    <li>Support</li>
+    <li>Not a Programming Language</li>
+    </ul>
+    <a href="HTML NOTES 1.html">Advantages, Disadvantages,HTML Basic Format Structure</a>
+    </body>
+    </html>
