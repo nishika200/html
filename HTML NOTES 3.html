@@ -3,8 +3,34 @@
 <title>HTML</title>
 <head>
 <style>
+   .button-33 {
+  background-color: pink;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 25px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+ 
+
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
     body {
   font-family: "Lato", sans-serif;
+  background-color:#d1e7fd;
 }
 
 .sidenav {
@@ -102,7 +128,7 @@ font-size:20px;
         <a href="HTML Notes 6.html">HTML Tables</a>
         <a href="HTML NOTES 7.html">HTML Lists</a>
       </div>
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Topics</span>
       <script>
         function openNav() {
           document.getElementById("mySidenav").style.width = "250px";
@@ -127,7 +153,9 @@ font-size:20px;
         <li><b>Content Section:</b> The content section is the central part where content is displayed.<main> tag is used to add the main content of the webpages.
         <li><b>Footer:</b> The footer section contains the contact information and other query related to web pages. The footer section is always put on the bottom of the web pages. The <footer> tag sets the footer on web pages.
         </ul>
-        <a href="HTML NOTES 4.html">HTML Headings ,HTML Paragraphs</a>
+        
+        <button class="button-33" role="button"><a href="HTML NOTES 2.html"><-PREVIOUS</a></button>
+      <button class="button-33" role="button" style="float:right;"><a href="HTML NOTES 4.html">NEXT-></a></button>
     </body>
     </html>
 
